@@ -27,7 +27,7 @@ How are approximate compressors implemented in approximate multipliers?
 <img width="978" alt="Screenshot 2025-01-17 at 8 24 56 PM" src="https://github.com/user-attachments/assets/ea0cfa2d-9c12-4bfc-98e7-2e0922a833be" />
 
 
-2. Figure also shows the order in which the compressors are implemented.
+2.Figure also shows the order in which the compressors are implemented.
 
 
 3.The compressor of each column takes the respective partial products from top to down and remaining inputs are taken as 0 for padding(except the carry in input which is the carry of the previous compressor.The carry in input for the first compressor is initially zero.)
@@ -36,7 +36,7 @@ How are approximate compressors implemented in approximate multipliers?
 4.Then the approximate sum, approximate carry and cout are calculated as output. 
 
 
-5. Using these five compressors, we get the output of the approximate multiplier.
+5.Using these five compressors, we get the output of the approximate multiplier.
 
 
 
