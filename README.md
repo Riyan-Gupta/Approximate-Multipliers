@@ -11,4 +11,6 @@ partialproduct2:        p23   p22   p21   p20
 partialproduct3:   p33  p32   p31   p30        
                        Comp5 Comp4 Comp3 Comp2 Comp1    
 This table explains the sequence in which binary multiplication is usually done.  
-The approximate compressor is implemented by the XORing of four inputs given to the compressor to give the sum output and the OR of
+The approximate compressor is implemented by the XORing of four inputs given to the compressor to give the approximate sum output and the OR of (AND of first two inputs) and (AND of last two inputs) to give the approximmate carry output. There is another input cin which is propagated without any computation to give you cout.
+
+
